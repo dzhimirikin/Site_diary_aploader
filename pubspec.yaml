@@ -1,3 +1,12 @@
+name: site_diary_uploader
+description: Construction photo diary uploader
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
@@ -7,5 +16,7 @@ dependencies:
 
   image: ^4.2.0
   exif: ^3.3.0
-
   file_picker: ^8.0.0
+
+flutter:
+  uses-material-design: true
